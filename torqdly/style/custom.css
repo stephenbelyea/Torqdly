@@ -2,6 +2,9 @@
 	Podcast Generator
 */
 
+/* Orange: #dd5f13 */
+/* Black: #222 */
+
 body {
   padding-top: 75px;
 }
@@ -16,4 +19,26 @@ body {
 
 #bs-example-navbar-collapse-1 > .navbar-right > li {
   display: inline-flex !important;
+}
+
+.torqdly a:hover, .torqdly a:focus {
+  transition: all .2s;
+}
+.torqdly .navbar-default {
+  background-color: #222;
+}
+.torqdly .jumbotron h1 {
+  font-size: 3.25rem;
+}
+.torqdly .jumbotron p {
+  font-size: 2rem;
+  margin: 2rem 0 3rem;
+}
+.torqdly .container .jumbotron, 
+.torqdly .container-fluid .jumbotron {
+  padding: 3rem 4rem;
+}
+.torqdly .navbar-default .navbar-nav>li>a:hover,
+.torqdly .navbar-default .navbar-nav>li>a:focus {
+  color: #dd5f13;
 }
